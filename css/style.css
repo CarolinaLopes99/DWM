@@ -272,6 +272,12 @@ ol {
 	display: -ms-flexbox;
 	display: flex;
 	background-color: white;
+	width: 100%;
+	position: fixed;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+	top: 0;
+	left: 0;
+	z-index: 9999;
 }
 
 .header-section.header-normal {
@@ -279,7 +285,6 @@ ol {
 }
 
 .logo {
-	float: left;
 	width: 20%;
 }
 
@@ -293,6 +298,7 @@ ol {
 
 .nav-menu .mainmenu {
 	display: inline-block;
+	width: 80%;
 }
 
 .nav-menu .mainmenu ul li {
@@ -362,6 +368,15 @@ ol {
 	padding: 42px 0;
 	position: relative;
 	display: inline-block;
+}
+
+.nav-menu .mainmenu ul .contactos a{
+	color: white;
+	text-transform: capitalize;
+}
+
+.nav-menu .mainmenu ul .contactos a:after{
+	display: none;
 }
 
 .nav-menu .mainmenu ul li a:after {
@@ -1189,23 +1204,18 @@ ol {
 	color: #f44949;
 }
 
-.footer-text .copyright-text {
-	font-size: 14px;
+.footer-text .copyright-text p{
 	color: #a0a1b5;
-	margin-bottom: 28px;
-}
-
-.footer-text .copyright-text i {
-	color: #f44949;
+	margin-top: 20px;
+	font-size: 10px;
+	margin-bottom: 0;
 }
 
 .footer-text .copyright-text a {
-	color: #a0a1b5;
+	color: #171822;
+	font-size: 2px;
 }
 
-.footer-text .copyright-text a:hover {
-	color: #a0a1b5;
-}
 
 .footer-text .ft-social a {
 	display: inline-block;
