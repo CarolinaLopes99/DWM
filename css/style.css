@@ -271,6 +271,13 @@ ol {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+	top: 0;
+	left: 0;
+	z-index: 9999;
 }
 
 .header-section.header-normal {
@@ -278,7 +285,6 @@ ol {
 }
 
 .logo {
-	float: left;
 	width: 20%;
 }
 
@@ -292,6 +298,7 @@ ol {
 
 .nav-menu .mainmenu {
 	display: inline-block;
+	width: 80%;
 }
 
 .nav-menu .mainmenu ul li {
@@ -361,6 +368,15 @@ ol {
 	padding: 42px 0;
 	position: relative;
 	display: inline-block;
+}
+
+.nav-menu .mainmenu ul .contactos a{
+	color: white;
+	text-transform: capitalize;
+}
+
+.nav-menu .mainmenu ul .contactos a:after{
+	display: none;
 }
 
 .nav-menu .mainmenu ul li a:after {
@@ -1122,14 +1138,20 @@ ol {
   Footer
 -----------------------*/
 
+.autor{
+	font-size: 5px;
+	color: #a0a1b5;
+}
+
+
 .footer-section {
 	background: #171822;
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .partner-logo {
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 	border-bottom: 1px solid #2f3039;
 }
 
@@ -1146,16 +1168,14 @@ ol {
 
 .footer-text {
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 25px;
 }
 
-.footer-text .ft-logo {
+.footer-text .footer-logo {
 	margin-bottom: 20px;
+
 }
 
-.footer-text .ft-logo a {
-	display: inline-block;
-}
 
 .footer-text ul {
 	margin-bottom: 18px;
@@ -1184,23 +1204,18 @@ ol {
 	color: #f44949;
 }
 
-.footer-text .copyright-text {
-	font-size: 14px;
+.footer-text .copyright-text p{
 	color: #a0a1b5;
-	margin-bottom: 28px;
-}
-
-.footer-text .copyright-text i {
-	color: #f44949;
+	margin-top: 20px;
+	font-size: 10px;
+	margin-bottom: 0;
 }
 
 .footer-text .copyright-text a {
-	color: #a0a1b5;
+	color: #171822;
+	font-size: 2px;
 }
 
-.footer-text .copyright-text a:hover {
-	color: #f44949;
-}
 
 .footer-text .ft-social a {
 	display: inline-block;
@@ -1213,12 +1228,31 @@ ol {
 	border: 1px solid #45464e;
 	border-radius: 50%;
 	margin-right: 15px;
+	transition: 0.2s;
 }
+
 
 .footer-text .ft-social a:last-child {
 	margin-right: 0;
 }
 
+.footer-text .ft-social .facebook:hover{
+	transition: 0.2s;
+	border: 1px solid #4267B2 ;
+	color:#4267B2;
+}
+
+.footer-text .ft-social .site:hover{
+	transition: 0.2s;
+	border: 1px solid #ffd500 ;
+	color:#ffd500;
+}
+
+.footer-text .ft-social .youtube:hover{
+	transition: 0.2s;
+	border: 1px solid #FF0000 ;
+	color:#FF0000;
+}
 /* ----------------------------------- Other Pages Styles ------------------------------- */
 
 /*---------------------
