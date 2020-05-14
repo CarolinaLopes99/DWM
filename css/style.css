@@ -271,6 +271,7 @@ ol {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	background-color: white;
 }
 
 .header-section.header-normal {
@@ -1122,6 +1123,12 @@ ol {
   Footer
 -----------------------*/
 
+.autor{
+	font-size: 5px;
+	color: #a0a1b5;
+}
+
+
 .footer-section {
 	background: #171822;
 	padding-top: 50px;
@@ -1149,13 +1156,11 @@ ol {
 	padding-top: 60px;
 }
 
-.footer-text .ft-logo {
+.footer-text .footer-logo {
 	margin-bottom: 20px;
+
 }
 
-.footer-text .ft-logo a {
-	display: inline-block;
-}
 
 .footer-text ul {
 	margin-bottom: 18px;
@@ -1199,7 +1204,7 @@ ol {
 }
 
 .footer-text .copyright-text a:hover {
-	color: #f44949;
+	color: #a0a1b5;
 }
 
 .footer-text .ft-social a {
