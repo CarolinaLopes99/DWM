@@ -279,8 +279,7 @@ ol {
 
 .logo {
 	float: left;
-	padding-top: 36px;
-	padding-bottom: 37px;
+	width: 20%;
 }
 
 .logo a {
@@ -298,7 +297,7 @@ ol {
 .nav-menu .mainmenu ul li {
 	display: inline-block;
 	list-style: none;
-	margin-right: 40px;
+	margin-right: 20px;
 	position: relative;
 }
 
@@ -379,7 +378,8 @@ ol {
 }
 
 .nav-menu .primary-btn.top-btn {
-	margin: 27px 0;
+	margin: 25px 0;
+	padding: 10px 25px;
 }
 
 .slicknav_menu {
