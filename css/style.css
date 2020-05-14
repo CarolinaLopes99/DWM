@@ -1218,12 +1218,31 @@ ol {
 	border: 1px solid #45464e;
 	border-radius: 50%;
 	margin-right: 15px;
+	transition: 0.2s;
 }
+
 
 .footer-text .ft-social a:last-child {
 	margin-right: 0;
 }
 
+.footer-text .ft-social .facebook:hover{
+	transition: 0.2s;
+	border: 1px solid #4267B2 ;
+	color:#4267B2;
+}
+
+.footer-text .ft-social .site:hover{
+	transition: 0.2s;
+	border: 1px solid #ffd500 ;
+	color:#ffd500;
+}
+
+.footer-text .ft-social .youtube:hover{
+	transition: 0.2s;
+	border: 1px solid #FF0000 ;
+	color:#FF0000;
+}
 /* ----------------------------------- Other Pages Styles ------------------------------- */
 
 /*---------------------
