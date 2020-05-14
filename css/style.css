@@ -1131,12 +1131,12 @@ ol {
 
 .footer-section {
 	background: #171822;
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .partner-logo {
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 	border-bottom: 1px solid #2f3039;
 }
 
@@ -1153,7 +1153,7 @@ ol {
 
 .footer-text {
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 25px;
 }
 
 .footer-text .footer-logo {
