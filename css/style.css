@@ -131,11 +131,7 @@ ol {
 	margin-bottom: 0;
 }
 
-.set-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-}
+
 
 .spad {
 	padding-top: 100px;
@@ -585,22 +581,17 @@ ol {
 
 .team-member-section {
 	overflow: hidden;
+	margin-bottom: 80px;
 }
 
 .member-item {
-	width: 20%;
-	float: left;
-	height: 420px;
+	height: 160px;
 	position: relative;
 	overflow: hidden;
 }
 
 .member-item:hover .mi-social {
 	top: 0;
-}
-
-.member-item:hover .mi-text {
-	left: 20px;
 }
 
 .member-item .mi-social {
@@ -630,14 +621,11 @@ ol {
 }
 
 .member-item .mi-text {
-	background: #ffffff;
-	padding: 16px 0 18px 25px;
+	width: 100%;
+	background: #f4f6f8;
+	padding: 16px 25px;
 	position: absolute;
-	left: -500px;
 	bottom: 20px;
-	width: calc(100% - 40px);
-	-webkit-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
 
@@ -1734,6 +1722,12 @@ ol {
 	margin-bottom: 30px;
 	-webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
 	box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
+	transition: all 0.3s;
+}
+
+.blog-item:hover{
+	transform: scale(1.1);
+	transition: all 0.3s;
 }
 
 .blog-item .bi-tag {
@@ -1772,6 +1766,8 @@ ol {
 
 .blog-item .bi-text h5 {
 	margin-bottom: 10px;
+	color: white;
+	font-weight: 600;
 }
 
 .blog-item .bi-text h5 a {
@@ -2289,11 +2285,6 @@ ol {
 		padding-top: 0;
 	}
 
-	.member-item {
-		width: 25%;
-		height: 310px;
-	}
-
 	.testimonial-slider.owl-carousel .owl-nav button {
 		left: -10px;
 	}
@@ -2433,11 +2424,6 @@ ol {
 		margin-bottom: 20px;
 	}
 
-	.member-item {
-		width: 33.33%;
-	}
-
-
 
 	/*menu-------------------*/
 
@@ -2505,10 +2491,6 @@ ol {
 		margin-bottom: 10px;
 	}
 
-	.member-item {
-		width: 50%;
-	}
-
 	.newslatter-inner {
 		padding: 60px 50px 48px;
 	}
@@ -2539,9 +2521,6 @@ ol {
 		float: none;
 	}
 
-	.member-item .mi-text {
-		left: -1000px;
-	}
 
 	.bh-text h2,
 	.hero-section .hero-text h2 {
