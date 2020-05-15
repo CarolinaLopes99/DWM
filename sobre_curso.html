@@ -10,11 +10,13 @@
     <title>DWM | Sobre o curso</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
 
-    <!--favicon-->
-    <script src="https://kit.fontawesome.com/bccc1bc3c5.js" crossorigin="anonymous"></script>
+    <!-- icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
     <!-- Css Styles -->
@@ -34,40 +36,57 @@
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="nav-menu navbar navbar-expand-lg">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="img/logofinal.png" alt="" class="w-75">
-                    </a>
-                </div>
-                <nav class="mainmenu ml-auto ">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li class="active"><a href="./sobre_curso.html">Sobre o Curso</a>
-                            <ul class="dropdown">
-                                <li><a href="./aulas.html">Aulas</a></li> <!-- Fazer uma galeria -->
-                                <li><a href="./sobre_curso.html">Curso</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="./pbl.html">O que é PBL</a></li>
-                        <li><a href="./projetos.html">Projetos</a>
-                            <ul class="dropdown">
-                                <li><a href="./premios.html">Prémios</a></li>
-                                <li><a href="./projetos.html">Projetos</a></li>
-                                <!-- Tem a pagina de projetos_detalhe -->
-                            </ul>
-                        </li>
-                        <li><a href="./parcerias.html">Parcerias</a></li> <!-- fazer pagina parcerias -->
-                    </ul>
-                </nav>
-                <a href="./contactos.html" class="primary-btn top-btn"><i class="fas fa-phone"></i> Contactos</a>
+   <header class="header-section">
+    <div class="container">
+        <div class="nav-menu navbar navbar-expand-lg">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logofinal.png" alt="logotipo">
+                </a>
             </div>
+            <nav id="navigation" class="mainmenu navbar-collapse collapse .navbar-expand-lg mobile-menu">
+                <ul class="navbar-nav nav ml-auto">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="./sobre_curso.html">Sobre o Curso</a>
+                        <ul class="dropdown">
+                            <li><a href="./aulas.html">Aulas</a></li> <!-- Fazer uma galeria -->
+                            <li><a href="./sobre_curso.html">Curso</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./pbl.html">O que é PBL</a>
+                    </li>
+                    <li>
+                        <a href="./projetos.html">Projetos</a>
+                        <ul class="dropdown">
+                            <li><a href="./premios.html">Prémios</a></li>
+                            <li><a href="./projetos.html">Projetos</a></li>
+                            <!-- Tem a pagina de projetos_detalhe -->
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="./parcerias.html">Parcerias</a> <!-- fazer pagina parcerias -->
+                    </li>
+                    <li class="mobile-contactos">
+                        <a href="./contactos.html">Contactos</a>
+                    </li>
+                    <li class="contactos">
+                        <a href="./contactos.html" class="primary-btn top-btn"><i class="fa fa-phone"></i>
+                            Contactos</a>
+                    </li>
+
+                </ul>
+            </nav>
             <div id="mobile-menu-wrap"></div>
         </div>
-    </header>
-    <!-- Header End -->
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section">
@@ -99,17 +118,17 @@
                         <p><b>Atividades Principais</b></p>
                         <div class="about-text">
                         <ul>
-                            <li><span class="icon_check"></span>Conceber, projetar e desenvolver aplicações e serviços Web</li>
-                            <li><span class="icon_check"></span>Conceber e produzir conteúdos multimédia</li>
-                            <li><span class="icon_check"></span>Integrar conteúdos multimédia nas aplicações e serviços Web</li>
-                            <li><span class="icon_check"></span>Configurar e manter sistemas de gestão de conteúdos</li>
-                            <li><span class="icon_check"></span>Conceber, implementar e gerir bases de dados</li>
-                            <li><span class="icon_check"></span>Contactar com clientes para o levantamento de requisitos e acompanhamento do processo de desenvolvimento de projetos;</li>
-                            <li><span class="icon_check"></span>Publicar, administrar e garantir a segurança das aplicações e serviços Web</li>
-                            <li><span class="icon_check"></span>Elaborar estratégias para gerar notoriedade e visibilidade na Web</li>
-                            <li><span class="icon_check"></span>Desenvolver a imagem institucional de uma organização e aplicá-la de forma coerente nos diversos meios de comunicação;</li>
-                            <li><span class="icon_check"></span>Gerir projetos e coordenar equipas utilizando ferramentas de trabalho colaborativo</li>
-                            <li><span class="icon_check"></span>Acompanhar a evolução tecnológica e as tendências no design, bem como dar resposta aos desafios emergentes dos pontos de vista comercial, organizativo e social</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Conceber, projetar e desenvolver aplicações e serviços Web</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Conceber e produzir conteúdos multimédia</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Integrar conteúdos multimédia nas aplicações e serviços Web</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Configurar e manter sistemas de gestão de conteúdos</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Conceber, implementar e gerir bases de dados</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Contactar com clientes para o levantamento de requisitos e acompanhamento do processo de desenvolvimento de projetos;</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Publicar, administrar e garantir a segurança das aplicações e serviços Web</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Elaborar estratégias para gerar notoriedade e visibilidade na Web</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Desenvolver a imagem institucional de uma organização e aplicá-la de forma coerente nos diversos meios de comunicação;</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Gerir projetos e coordenar equipas utilizando ferramentas de trabalho colaborativo</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Acompanhar a evolução tecnológica e as tendências no design, bem como dar resposta aos desafios emergentes dos pontos de vista comercial, organizativo e social</li>
                          </ul>
                         </div>
                     </div>

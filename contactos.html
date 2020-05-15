@@ -14,9 +14,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
 
-    <!--favicon-->
-    <script src="https://kit.fontawesome.com/bccc1bc3c5.js" crossorigin="anonymous"></script>
-
+    <!-- icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -40,31 +39,47 @@
             <div class="nav-menu navbar navbar-expand-lg">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="img/logofinal.png" alt="" class="w-75">
+                        <img src="img/logofinal.png" alt="logotipo">
                     </a>
                 </div>
-                <nav class="mainmenu .navbar-expand-lg .navbar-collapse">
-                    <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./sobre_curso.html">Sobre o Curso</a>
+                <nav id="navigation" class="mainmenu navbar-collapse collapse .navbar-expand-lg mobile-menu">
+                    <ul class="navbar-nav nav ml-auto">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./sobre_curso.html">Sobre o Curso</a>
                             <ul class="dropdown">
                                 <li><a href="./aulas.html">Aulas</a></li> <!-- Fazer uma galeria -->
                                 <li><a href="./sobre_curso.html">Curso</a></li>
                             </ul>
                         </li>
-                        <li><a href="./pbl.html">O que é PBL</a></li>
-                        <li><a href="./projetos.html">Projetos</a>
+                        <li>
+                            <a href="./pbl.html">O que é PBL</a>
+                        </li>
+                        <li>
+                            <a href="./projetos.html">Projetos</a>
                             <ul class="dropdown">
                                 <li><a href="./premios.html">Prémios</a></li>
                                 <li><a href="./projetos.html">Projetos</a></li>
                                 <!-- Tem a pagina de projetos_detalhe -->
                             </ul>
                         </li>
-                        <li><a href="./parcerias.html">Parcerias</a></li> <!-- fazer pagina parcerias -->
-                        <li class="contactos"><a href="./contactos.html" class="primary-btn top-btn"><i class="fa fa-phone"></i> Contactos</a></li>
+                        
+                        <li>
+                            <a href="./parcerias.html">Parcerias</a> <!-- fazer pagina parcerias -->
+                        </li>
+                        <li class="mobile-contactos">
+                            <a href="./contactos.html">Contactos</a>
+                        </li>
+                        <li class="contactos">
+                            <a href="./contactos.html" class="primary-btn top-btn"><i class="fa fa-phone"></i>
+                                Contactos</a>
+                        </li>
+
                     </ul>
                 </nav>
-                
+                <div id="mobile-menu-wrap"></div>
             </div>
             <div id="mobile-menu-wrap"></div>
         </div>
@@ -165,71 +180,76 @@
     </section>
     <!-- Contact Form Section End -->
 
-    <!-- Footer Section Begin -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="partner-logo owl-carousel">
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/ipl.png" alt="">
+  <!-- Footer Section Begin -->
+  <footer class="footer-section">
+    <div class="container">
+        <div class="partner-logo owl-carousel">
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/ipl.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/estg.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/esecs.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/esslei.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/estm.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="pl-table">
+                <div class="pl-tablecell">
+                    <img src="img/partner-logo/esad.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-text">
+                    <!-- <div class="footer-logo mx-auto w-50">
+                            <img src="img/logowhite.png" alt="" class="w-25">
+                    </div>-->
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./sobre_curso.html">Sobre o Curso</a></li>
+                        <li><a href="./pbl.html">O que é PBL</a></li>
+                        <li><a href="./projetos.html">Projetos</a></li>
+                        <li><a href="./parcerias.html">Parcerias</a></li>
+                        <li><a href="./contactos.html">Contactos</a></li>
+                    </ul>
+                    <div class="copyright-text">
+                        <p>
+                            Copyright &copy; by Carolina Lopes & Pedro Xavier, based in <a
+                                href="https://colorlib.com" target="_blank" class="autor"> Colorlib</a> todos os
+                            direitos reservados
+                        </p>
                     </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/estg.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/esecs.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/esslei.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/estm.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="pl-table">
-                    <div class="pl-tablecell">
-                        <img src="img/partner-logo/esad.png" alt="">
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-text">
-                       <!-- <div class="footer-logo mx-auto w-50">
-                                <img src="img/logowhite.png" alt="" class="w-25">
-                        </div>-->
-                        <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./sobre_curso.html">Sobre o Curso</a></li>
-                            <li><a href="./pbl.html">O que é PBL</a></li>
-                            <li><a href="./projetos.html">Projetos</a></li>
-                            <li><a href="./parcerias.html">Parcerias</a></li>
-                            <li><a href="./contactos.html">Contactos</a></li>
-                        </ul>
-                        <div class="copyright-text">
-                            <p>
-                                Copyright &copy; by Carolina Lopes & Pedro Xavier, based in <a href="https://colorlib.com" target="_blank" class="autor"> Colorlib</a> todos os direitos reservados
-                            </p>
-                        </div>
-                        <div class="ft-social">
-                            <a href="https://www.facebook.com/TeSPDWM/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.ipleiria.pt/" target="_blank" class="site"><i class="fa fa-link"></i></i></a>
-                            <a href="https://www.youtube.com/channel/UCdScJ_358QzxtasUhiuF78w/featured" class="youtube" target="_blank"><i class="fa fa-youtube-play"></i></a>
-                        </div>
+                    <div class="ft-social">
+                        <a href="https://www.facebook.com/TeSPDWM/" target="_blank" class="facebook"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.ipleiria.pt/" target="_blank" class="site"><i
+                                class="fa fa-link"></i></i></a>
+                        <a href="https://www.youtube.com/channel/UCdScJ_358QzxtasUhiuF78w/featured" class="youtube"
+                            target="_blank"><i class="fa fa-youtube-play"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- Footer Section End -->
+    </div>
+</footer>
+<!-- Footer Section End -->
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
