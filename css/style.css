@@ -1354,12 +1354,21 @@ ol {
 }
 
 /*---------------------
-  About Section
+  About Section / PARCERIAAA
 -----------------------*/
 
 .about-section {
 	padding-top: 20px;
 	padding-bottom: 90px;
+}
+
+.new-parceria{
+	padding: 50px 0;
+	background-color: #f4f6f8;
+}
+
+.new-parceria h3{
+	margin-bottom: 50px;
 }
 
 
