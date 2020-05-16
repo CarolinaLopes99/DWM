@@ -422,11 +422,13 @@ ol {
 -----------------------*/
 
 .hero-section {
-	padding-top: 55px;
+	padding: 55px;
+	height: calc(100vh - 124px);
 }
 
+
 .hero-section .hero-text {
-	padding-top: 184px;
+	padding: 100px 0;
 }
 
 .hero-section .hero-text span {
@@ -509,6 +511,60 @@ ol {
 	line-height: 30px;
 }
 
+/* ETAPAS--------------------------------------------*/
+.component-accordion .panel-group .panel-heading h4 {
+	margin: 0;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.component-accordion .panel-group .panel-title a:hover {
+	text-decoration: none;
+}
+
+.component-accordion .panel-group .panel-title a {
+	color: #000000;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	position: relative;
+	padding: 15px;
+	transition: color .2s ease-in-out;
+}
+
+.component-accordion .panel-body {
+	border: 1px solid black;
+	border-radius: 2px;
+	border-top: none;
+}
+
+.component-accordion .panel-body p {
+	color: black;
+	font-size: 15px;
+}
+
+
+.component-accordion .panel-group .panel-title a.collapsed::after,
+.component-accordion .panel-group .panel-title a::after {
+	content: "\f067";
+	font-family: fontawesome;
+	font-size: 30px;
+	line-height: 60px;
+	padding-left: 20px;
+	position: absolute;
+	right: 3rem;
+	top: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.component-accordion .panel-group .panel-title a:after {
+	content: "\f068";
+}
+
+
 /*---------------------
   Home About Section
 -----------------------*/
@@ -521,15 +577,15 @@ ol {
 	-webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
 	box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
 	margin-right: 30px;
-}
-
-.ha-pic img {
-	min-width: 100%;
+	background-image: url("../img/home_curso.jpg");
+	background-size: cover;
+	height: 100%;
 	border-radius: 2px;
 }
 
+
 .ha-text {
-	padding-top: 74px;
+	padding: 50px 0;
 }
 
 .ha-text h2 {
@@ -1302,25 +1358,10 @@ ol {
 -----------------------*/
 
 .about-section {
-	padding-top: 0;
+	padding-top: 20px;
 	padding-bottom: 90px;
 }
 
-.about-section .section-title {
-	text-align: left;
-}
-
-.about-section .section-title h2 {
-	margin-bottom: 20px;
-}
-
-.about-section .section-title p {
-	font-size: 16px;
-}
-
-.about-section .section-title p.f-para {
-	margin-bottom: 20px;
-}
 
 .about-pic {
 	-webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
@@ -1725,7 +1766,7 @@ ol {
 	transition: all 0.3s;
 }
 
-.blog-item:hover{
+.blog-item:hover {
 	transform: scale(1.1);
 	transition: all 0.3s;
 }
@@ -2545,6 +2586,7 @@ ol {
 		margin-top: 10px;
 		position: relative;
 	}
+
 	.nav-menu .mainmenu ul .mobile-contactos {
 		display: block;
 	}
@@ -2609,7 +2651,7 @@ ol {
 /* Small Mobile: 320px */
 
 @media only screen and (max-width: 479px) {
-	
+
 
 	.bh-text h2,
 	.hero-section .hero-text h2 {
